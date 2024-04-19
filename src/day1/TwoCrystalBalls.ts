@@ -5,8 +5,8 @@ export default function two_crystal_balls(breaks: boolean[]): number {
     */
 
     function oSqrtN() {
-        const sqrtN = Math.floor(Math.pow(breaks.length, 0.5));
-        let jumpBreakIdx: number = -1;
+        const sqrtN = Math.floor(breaks.length ** 0.5);
+        let jumpBreakIdx = -1;
 
         //Jump by step-size sqrtN
         for (let i = 0; i < breaks.length; i += sqrtN) {
@@ -26,7 +26,7 @@ export default function two_crystal_balls(breaks: boolean[]): number {
 
     function oN() {
         const halfN = Math.floor(0.5 * breaks.length);
-        let jumpBreakIdx: number = -1;
+        let jumpBreakIdx = -1;
 
         //Jump by step-size 0.5N
         for (let i = 0; i < breaks.length; i += halfN) {
