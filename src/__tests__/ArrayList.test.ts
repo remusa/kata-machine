@@ -1,5 +1,5 @@
 import ArrayList from "@code/ArrayList";
-import { expect, test } from "vitest";
+import { test } from "vitest";
 import { test_list } from "./ListTest";
 
 test("array-list", () => {
