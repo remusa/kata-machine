@@ -1,8 +1,8 @@
 import SinglyLinkedList from "@code/SinglyLinkedList";
-import { test_list } from "./ListTest";
 import { expect, test } from "vitest";
+import { test_list } from "./ListTest";
 
-test("linked-list", function () {
-    const list = new SinglyLinkedList<number>();
-    test_list(list);
+test("linked-list", () => {
+	const list = new SinglyLinkedList<number>();
+	test_list(list);
 });

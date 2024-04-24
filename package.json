@@ -5,17 +5,20 @@
     "main": "index.js",
     "license": "MIT",
     "dependencies": {
-        "prettier": "^2.7.1",
         "typescript": "^5.4.5"
     },
     "scripts": {
         "test": "vitest",
         "clear": "node ./scripts/clear.js",
-        "prettier": "prettier --write ./src",
+        "format": "nlx @biomejs/biome format ./src --write",
+        "lint": "nlx @biomejs/biome lint ./src ",
+        "fix": "nlx @biomejs/biome check --apply-unsafe ./src",
+        "knip": "knip",
         "generate": "node ./scripts/generate.js",
         "day": "echo src\\day1"
     },
     "devDependencies": {
+        "@biomejs/biome": "^1.7.1",
         "@types/node": "^20.12.7",
         "knip": "^5.10.0",
         "vitest": "^1.5.0"

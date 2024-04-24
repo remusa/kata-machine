@@ -1,14 +1,14 @@
 export default function linear_search(
-    haystack: number[],
-    needle: number,
+	haystack: number[],
+	needle: number,
 ): boolean {
-    for (let i = 0; i <= haystack.length; i++) {
-        const item = haystack[i];
+	for (let i = 0; i <= haystack.length; i++) {
+		const item = haystack[i];
 
-        if (item === needle) {
-            return true;
-        }
-    }
+		if (item === needle) {
+			return true;
+		}
+	}
 
-    return false;
+	return false;
 }

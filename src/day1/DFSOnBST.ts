@@ -1,4 +1,4 @@
 export default function dfs(
-    head: BinaryNode<number>,
-    needle: number,
+	head: BinaryNode<number>,
+	needle: number,
 ): boolean {}
