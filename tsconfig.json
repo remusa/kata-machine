@@ -17,7 +17,8 @@
         }
     },
     "include": [
-        "./src/**/*"
+        "./src/**/*",
+        "vite.config.js"
     ],
     "exclude": [
         "node_modules"
