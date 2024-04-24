@@ -1,5 +1,6 @@
 import bt_pre_order from "@code/BTPreOrder";
 import { tree } from "./tree";
+import { expect, test } from "vitest";
 
 test("Pre order", function () {
     expect(bt_pre_order(tree)).toEqual([
@@ -15,5 +16,3 @@ test("Pre order", function () {
         100,
     ]);
 });
-
-

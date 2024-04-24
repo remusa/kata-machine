@@ -1,5 +1,6 @@
 import bfs from "@code/BFSGraphMatrix";
 import { matrix2 } from "./graph";
+import { expect, test } from "vitest";
 
 test("bfs - graph matrix", function () {
     expect(bfs(matrix2, 0, 6)).toEqual([
@@ -12,6 +13,3 @@ test("bfs - graph matrix", function () {
 
     expect(bfs(matrix2, 6, 0)).toEqual(null);
 });
-
-
-

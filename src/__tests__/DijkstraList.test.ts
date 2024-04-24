@@ -1,4 +1,5 @@
 import dijkstra_list from "@code/DijkstraList";
+import { expect, test } from "vitest";
 import { list1 } from "./graph";
 
 test("dijkstra via adj list", function () {

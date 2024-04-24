@@ -1,5 +1,6 @@
 import bt_post_order from "@code/BTPostOrder";
 import { tree } from "./tree";
+import { expect, test } from "vitest";
 
 test("post order", function () {
     expect(bt_post_order(tree)).toEqual([
@@ -15,6 +16,3 @@ test("post order", function () {
         20,
     ]);
 });
-
-
-

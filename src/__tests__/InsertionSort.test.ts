@@ -1,4 +1,5 @@
 import insertion_sort from "@code/InsertionSort";
+import { expect, test } from "vitest";
 
 test("insertion-sort", function () {
     const arr = [9, 3, 7, 4, 69, 420, 42];

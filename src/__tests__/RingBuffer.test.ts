@@ -1,4 +1,5 @@
 import RingBuffer from "@code/RingBuffer";
+import { expect, test } from "vitest";
 
 test("RingBuffer", function() {
     const buffer = new RingBuffer<number>();
@@ -20,5 +21,3 @@ test("RingBuffer", function() {
     expect(buffer.get(1)).toEqual(9);
     expect(buffer.get(0)).toEqual(42);
 });
-
-

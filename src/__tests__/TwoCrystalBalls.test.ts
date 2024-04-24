@@ -1,4 +1,5 @@
 import two_crystal_balls from "@code/TwoCrystalBalls";
+import { expect, test } from "vitest";
 
 test("two crystal balls", function () {
     let idx = Math.floor(Math.random() * 10000);
@@ -11,4 +12,3 @@ test("two crystal balls", function () {
     expect(two_crystal_balls(data)).toEqual(idx);
     expect(two_crystal_balls(new Array(821).fill(false))).toEqual(-1);
 });
-

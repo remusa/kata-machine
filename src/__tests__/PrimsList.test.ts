@@ -1,5 +1,6 @@
 import prims from "@code/PrimsAlgorithm";
 import { list1 } from "./graph";
+import { expect, test } from "vitest";
 
 test("PrimsAlgorithm", function () {
     // there is only one right answer for this graph

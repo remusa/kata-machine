@@ -1,4 +1,5 @@
 import linear_fn from "@code/LinearSearchList"
+import { expect, test } from "vitest";
 
 test("linear search array", function() {
 
@@ -10,5 +11,3 @@ test("linear search array", function() {
     expect(linear_fn(foo, 1)).toEqual(true);
     expect(linear_fn(foo, 0)).toEqual(false);
 });
-
-

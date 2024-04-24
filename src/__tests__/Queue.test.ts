@@ -1,4 +1,5 @@
 import Queue from "@code/Queue";
+import { expect, test } from "vitest";
 
 test("queue", function () {
     const list = new Queue<number>();

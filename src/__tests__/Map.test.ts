@@ -1,4 +1,5 @@
 import MyMap from "@code/Map";
+import { expect, test } from "vitest";
 
 test("Map", function() {
     const map = new MyMap<string, number>();
@@ -22,4 +23,3 @@ test("Map", function() {
     expect(map.size()).toEqual(3);
     expect(map.get("bar")).toEqual(undefined);
 });
-

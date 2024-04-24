@@ -1,4 +1,5 @@
 import maze_solver from "@code/MazeSolver";
+import { expect, test } from "vitest";
 
 test("maze solver", function () {
     const maze = [
@@ -42,4 +43,3 @@ function drawPath(data: string[], path: Point[]) {
     });
     return data2.map(d => d.join(''));
 }
-

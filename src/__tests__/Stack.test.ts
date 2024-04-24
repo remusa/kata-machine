@@ -1,4 +1,5 @@
 import Stack from "@code/Stack";
+import { expect, test } from "vitest";
 
 test("stack", function () {
     const list = new Stack<number>();

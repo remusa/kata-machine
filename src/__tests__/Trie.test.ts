@@ -1,4 +1,5 @@
 import Trie from "@code/Trie";
+import { expect, test } from "vitest";
 
 test("Trie", function() {
     const trie = new Trie();
@@ -20,4 +21,3 @@ test("Trie", function() {
         "foolish",
     ]);
 });
-
