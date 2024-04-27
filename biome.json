@@ -18,7 +18,7 @@
 		"formatWithErrors": false,
 		"indentStyle": "tab",
 		"indentWidth": 4,
-		"lineWidth": 80,
+		"lineWidth": 100,
 		"lineEnding": "lf",
 		"ignore": []
 	},

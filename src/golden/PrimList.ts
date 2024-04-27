@@ -1,6 +1,4 @@
-export default function prims(
-	list: WeightedAdjacencyList,
-): WeightedAdjacencyList | null {
+export default function prims(list: WeightedAdjacencyList): WeightedAdjacencyList | null {
 	// Prims algorithm :: minimum spanning tree
 	// What is a minimum spanning tree?
 	//  - Requires no cycles
