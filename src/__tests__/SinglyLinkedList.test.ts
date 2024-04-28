@@ -1,5 +1,5 @@
 import SinglyLinkedList from "@code/SinglyLinkedList";
-import { expect, test } from "vitest";
+import { test } from "vitest";
 import { test_list } from "./ListTest";
 
 test("linked-list", () => {
